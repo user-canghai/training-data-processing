@@ -1,0 +1,19 @@
+{
+  "total": 32,
+  "passed": 23,
+  "removed": 9,
+  "removed_ratio": 0.28125,
+  "removed_garbled": 5,
+  "removed_short": 0,
+  "removed_quality": 4,
+  "sensitive_counts": {
+    "手机号": 33,
+    "邮箱": 19,
+    "身份证号": 17,
+    "IP 地址": 16,
+    "银行卡号": 17,
+    "密码": 9,
+    "信用代码": 3,
+    "固定电话": 13
+  }
+}

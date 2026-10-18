@@ -1,0 +1,11 @@
+{
+  "original": 23,
+  "after_exact": 22,
+  "after_minhash": 22,
+  "after_semantic": 22,
+  "final": 22,
+  "removed_ratio": 0.04347826086956519,
+  "text_threshold": 0.5,
+  "semantic_threshold": 0.5,
+  "elapsed_seconds": 3.733271360397339
+}

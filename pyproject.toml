@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "training-data-processing"
+version = "1.0.0"
+description = "A modular pipeline for cleaning, deduplicating, and fusing multimodal training data"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch",
+    "torchvision",
+    "tqdm",
+    "beautifulsoup4",
+    "lxml",
+    "ftfy",
+    "langdetect",
+    "scikit-learn",
+    "matplotlib",
+    "open-clip-torch",
+    "regex",
+    "numpy",
+    "pillow",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
